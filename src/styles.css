@@ -1,0 +1,71 @@
+body {
+  background-color: #0b0c10;
+  color: #c5c6c7;
+  font-family: Arial, sans-serif;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #66c0f4; /* Niebieski kolor z TF2 */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #66c0f4; /* Niebieski kolor z TF2 */
+  background-color: #1f2833; /* Ciemny niebieski tło z TF2 */
+  color: #c5c6c7;
+  border-radius: 3px;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+input[type="text"]:focus {
+  border-color: #45aaf2; /* Jasny niebieski kolor z TF2 po najechaniu */
+  outline: none;
+  background-color: #0b0c10; /* Ciemne tło z powrotem przy fokusie */
+}
+
+button {
+  padding: 6px 14px;
+  background-color: #66c0f4; /* Niebieski kolor z TF2 */
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #45aaf2; /* Jasny niebieski kolor z TF2 po najechaniu */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #c5c6c7; /* Jasny kolor z TF2 */
+  text-align: left;
+}
+
+th {
+  background-color: #1f2833; /* Ciemne tło z TF2 */
+  color: #66c0f4; /* Niebieski kolor z TF2 */
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #0b0c10; /* Ciemne tło z TF2 */
+}
+
+tr:hover {
+  background-color: #1f2833; /* Ciemny niebieski kolor z TF2 po najechaniu */
+  transition: background-color 0.2s;
+}
